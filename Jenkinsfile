@@ -58,5 +58,5 @@ pipeline {
             subject: "Build échoué",
             body:"Build terminé avec échec"
             }
-    }
+    }
 }
