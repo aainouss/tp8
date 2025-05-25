@@ -49,16 +49,14 @@ pipeline {
         }
     post {
         success {
-
             mail to: "${EMAIL_RECEPT}",
             subject: "Build réussi",
             body: "Build terminé avec succès"
-        }
+            }
          failure {
-
             mail to: "${EMAIL_RECEPT}",
             subject: "Build échoué",
-            body: "Build terminé avec échec"
-        }
+            body:"Build terminé avec échec"
+            }
     }
 }
