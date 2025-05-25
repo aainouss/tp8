@@ -61,3 +61,4 @@ pipeline {
             body: "Build terminé avec échec"
         }
     }
+}
